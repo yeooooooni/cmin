@@ -319,7 +319,7 @@ int main(int argc, char ** argv){
     // return 0;
 
     char * reduced_result;
-    reduced_result = reduce(input_buffer, read_byte);
+    reduced_result = Reduce(input_buffer, read_byte);
     // fprintf(stderr, "final output:%s\n", reduced_result);
 
     FILE * reduced_file;
