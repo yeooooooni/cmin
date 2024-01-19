@@ -1,9 +1,8 @@
 CC=gcc
 
 compile :
-	$(CC) cmin_tmp.c -o cmin
+	$(CC) cmin.c -o cmin
 	$(CC) test_target.c -o test
-	$(CC) cimin.c -o run
 
 #test case 
 test :
